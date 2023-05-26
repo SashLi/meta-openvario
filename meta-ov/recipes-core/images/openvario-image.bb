@@ -5,7 +5,7 @@ IMAGE_ROOTFS_SIZE ?= "1048576"
 
 IMAGE_INSTALL += "\
     xcsoar \
-    xcsoar-menu \
+    xcsoar-x \
     xcsoar-profiles \
     xcsoar-maps-default \
     caltool \

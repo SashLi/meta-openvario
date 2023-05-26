@@ -80,10 +80,16 @@ do_compile() {
 
 do_install() {
 	oe_runmake install-bin install-mo DESTDIR=${D}
+	install -d ${D}${bindir}
+    install -m 0755 \
+    	        ${WORKDIR}/logbook.sh \
+    	        ${WORKDIR}/system-info.sh \
+    	        ${D}${bindir}/
 }
 
 FILES:${PN} = " \
 	${bindir}/xcsoar \
 	${bindir}/vali-xcs \
 	${LC_LOCALE_PATH}/*/LC_MESSAGES/xcsoar.mo \
+	${bindir}/*.sh \
 "

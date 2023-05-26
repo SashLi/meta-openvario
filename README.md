@@ -1,8 +1,11 @@
 [![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github-tools.github.io/github-release-notes/)
 
-# meta-openvario
+# meta-openvario fork with personal changes
 
-This is a layer for OpenEmbedded to support the Openvario hardware
+This is a layer with **some changes** to the standard layer for OpenEmbedded to support the Openvario hardware
+
+* Added to use menu-x as default
+* Added more alternated in the xcsoard alternate list
 
 ## How to build an image
 
@@ -14,7 +17,7 @@ This is a layer for OpenEmbedded to support the Openvario hardware
 ### Fetching sources
 
 ```
-git clone --recurse-submodules https://github.com/Openvario/meta-openvario.git
+git clone --recurse-submodules https://github.com/SashLi/meta-openvario.git
 cd meta-openvario
 ```
 

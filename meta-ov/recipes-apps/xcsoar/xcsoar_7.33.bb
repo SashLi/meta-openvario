@@ -7,7 +7,7 @@ RCONFLICTS:${PN}="xcsoar-testing"
 SRC_URI = "git://github.com/SashLi/XCSoar.git;protocol=https;branch=master \
 "
 
-SRCREV = "e122cbc553a49af473ab35c8109e6e9491727e92"
+SRCREV = "ab0f6059e7eeba10b7471f04f43497d2c0fd0d6d"
 
 # TODO remove this after 7.25 has been released with https://github.com/XCSoar/XCSoar/commit/7ce3070fee3a140b6a4d9437a2cfe9854f78abfe
 EXTRA_CXXFLAGS = "-Wno-empty-body"

@@ -8,3 +8,9 @@ downloads/
 sstate-cache/
 tmp/
 build/
+/.idea/.gitignore
+/.idea/jsLinters/jshint.xml
+/.idea/meta-openvario.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
